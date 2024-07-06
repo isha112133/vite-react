@@ -33,7 +33,7 @@ const SecondPage = () => {
         Data Table
       </Typography>
       <Box sx={{ height: 400, width: "100%" }}>
-        <DataGrid rows={posts} columns={columns} pageSize={10} />
+        <DataGrid rows={posts} columns={columns} pageSizeOptions={[10]} />
         <DepartmentList />
       </Box>
     </Box>

@@ -20,7 +20,7 @@ const PostTable = () => {
 
   return (
     <div style={{ height: 600, width: "100%" }}>
-      <DataGrid rows={posts} columns={columns} pageSize={10} />
+      <DataGrid rows={posts} columns={columns} pageSizeOptions={[10]} />
     </div>
   );
 };
